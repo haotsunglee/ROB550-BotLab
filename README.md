@@ -1,6 +1,9 @@
 # Slam and Path Planning implementation on MBot
 
 A project for 2021 Fall ROB 550: Robotics Systems Lab at University of Michigan, Ann Arbor. 
+
+![image](https://github.com/haotsunglee/ROB550-BotLab/blob/master/PXL_20211028_075419027.jpg)
+
 An overview of this project:
 - Acting
     - Cascade Control & PID
