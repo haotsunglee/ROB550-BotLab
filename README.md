@@ -1,10 +1,12 @@
 # Slam and Path Planning implementation on MBot
 
-A project for ROB 550: Robotics Systems Lab course taught in University of Michigan, Ann Arbor. Due to the COVID-19 pandemic this project was migrated to an online project. An overview of this project:
+A project for 2021 Fall ROB 550: Robotics Systems Lab at University of Michigan, Ann Arbor. 
+An overview of this project:
 - Acting
+    - Cascade Control & PID
     - Planar kinematics of a differential-drive ground robot
     - Motion models with uncertainty
-
+    
 - Perception 
     - Quadrature Encoders
     - MEMS Inertial Measurement Unit
@@ -14,7 +16,7 @@ A project for ROB 550: Robotics Systems Lab course taught in University of Michi
     - Monte Carlo Localization
     - Simultaneous Localization and Mapping
     - A* search
-    - Path planning
+    - Frontiers-based exploration
 
 
 
@@ -54,21 +56,11 @@ A project for ROB 550: Robotics Systems Lab course taught in University of Michi
     - View the generated obstacle distance grid by ticking “Show Obstacle Distances” in botgui
 
 6. A* Algorithm
-    - `cd <path_to_dir>/src/sim`
-    - `python3 sim.py <map_file.map>`
-    - `./timesync`
-    - `./botgui`
-    - `./motion_controller`
-    - `./slam --localization-only <map_file.map>`
+    - `./launch_botlab.sh`
     - Right-click on the botgui to drive the robot to that location
 
 7. Frontier exploration
-    - `cd <path_to_dir>/src/sim`
-    - `python3 sim.py <map_file.map>`
-    - `./timesync`
-    - `./botgui`
-    - `./motion_controller`
-    - `./slam`
+    - `./launch_botlab.sh`
     - `./exploration` 
 
 Check the [final report](https://github.com/haotsunglee/ROB550-BotLab/blob/master/ROB_550_Botlab_Report.pdf) for detailed explanation and results.
