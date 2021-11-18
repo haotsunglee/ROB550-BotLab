@@ -21,7 +21,7 @@ An overview of this project:
     - A* search
     - Frontiers-based exploration
 
-
+Check the images directory and [final report](https://github.com/haotsunglee/ROB550-BotLab/blob/master/ROB_550_Botlab_Report.pdf) for detailed explanation and results.
 
 ## Running the code
 
@@ -65,8 +65,6 @@ An overview of this project:
 7. Frontier exploration
     - `./launch_botlab.sh`
     - `./exploration` 
-
-Check the [final report](https://github.com/haotsunglee/ROB550-BotLab/blob/master/ROB_550_Botlab_Report.pdf) for detailed explanation and results.
 
 ## Directories 
 
