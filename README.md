@@ -1,4 +1,4 @@
-# Slam and Path Planning implementation on MBot
+# Botlab : SlAM and Path Planning implementation project
 
 A project for 2021 Fall ROB 550: Robotics Systems Lab at University of Michigan, Ann Arbor. 
 
